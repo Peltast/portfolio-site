@@ -1,0 +1,30 @@
+{
+
+    "title": "OverWorkFlow",
+
+    "subjectHTML": [
+        "<iframe id=\"gameScreen\" src=\"lib/content/ggj2020/index.html\" width=\"960\" height=\"640\" frameborder=\"0\" scrolling=\"no\">"
+    ],
+
+    "audienceText": [
+        "Keep your thoughts organized to balance the constantly changing demands of work!",
+        "<br><br>",
+        "Click the blue nodes on the left to change the paths that signals will travel through.  ",
+        "Where they land at the bottom determines what your player will do: move to the left, right, or stand still.  ",
+        "Work will pile up at different stations, so make sure you get to them fast enough!",
+        "<br><br>",
+        "<ul><li>When you clear through work, new signals will pour in to help you get to the next station</li>",
+        "<li>If work piles up too high, it will create negative signals, which change the pathways, messing up your plans</li>",
+        "<li>If a node is switched too much it will overheat and eventually burn out, creating a fire signal that will disable whichever node it reaches</li></ul>",
+        "<br>",
+        "Press R to reset the game at any time.  There is no game over state; just try to get as much work done before you're overwhelmed!"
+    ],
+    "devText": [
+        "Made in 48 hours for Global Game Jam 2020 with the theme of \"repair\".",
+        "<br><br>",
+        "This submission is quite punishing - I was trying to create the feeling of narrowly holding off disaster, but I overdid it a little and it seems to always lead to disaster pretty quickly!  ",
+        "That said, I'm still happy with what I came up with for this game jam.  I have plenty of ideas on how I could improve the game's balance, and ",
+        "I think the concept has a lot of potential.  I'd definitely like to return to this and see where it leads."
+    ]
+
+}

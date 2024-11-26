@@ -1,0 +1,35 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "extensionsPath": "extensions",
+    "folders": [
+    ],
+    "propertyTypes": [
+        {
+            "id": 1,
+            "name": "ObjectType",
+            "storageType": "string",
+            "type": "enum",
+            "values": [
+                "Flower",
+                "ShardOfLove",
+                "CheckpointSpirit",
+                "Shade"
+            ],
+            "valuesAsFlags": false
+        },
+        {
+            "id": 2,
+            "name": "LayerType",
+            "storageType": "string",
+            "type": "enum",
+            "values": [
+                "tiles",
+                "background",
+                "objects"
+            ],
+            "valuesAsFlags": false
+        }
+    ]
+}

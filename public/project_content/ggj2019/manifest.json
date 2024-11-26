@@ -1,0 +1,25 @@
+{
+
+    "title": "Weekend Trip to Space",
+
+    "subjectHTML": [
+        "<iframe id=\"gameScreen\" src=\"lib/content/ggj2019/index.html\" width=\"640\" height=\"480\" frameborder=\"0\" scrolling=\"no\">"
+    ],
+
+    "audienceText": [
+        "Build up speed to jump, fly and float your way to the moon!<br><br>",
+        "<ul><li>A/D or arrow keys to move</li>",
+        "<li>Enter / Shift / Z to jump</li>",
+        "<li>After building enough running speed, you can make a flying jump.</li>",
+        "<li>While flying, you have a double jump, and can hold backwards for extra air, or forwards to maintain your speed.</li></ul>"
+    ],
+    "devText": [
+        "Made in 48 hours for Global Game Jam 2019 with the theme of \"what home means to you\".",
+        "<br><br>",
+        "This was primarily an experiment with platforming physics.  The player's movement is very heavily momentum-based, making the tight spaces at the beginning of the game ",
+        "far more difficult to navigate than they would be in a precision platformer.  As the player progresses, the terrain opens up, allowing the player to run longer distances and ",
+        "build up more and more momentum, until they can finally take flight, at which point the player's physics change to become more lenient.  Finally the game ",
+        "completely opens up and allows free movement when the player reaches space."
+    ]
+
+}

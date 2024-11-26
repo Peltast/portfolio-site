@@ -1,0 +1,109 @@
+
+
+{
+
+    "Plains": {        
+        "shapes": [
+            {
+                "layer": 0, "size": "max", "shape": "rectangle", "color": "#9ec2e8"
+            }
+        ],
+        "props": [
+
+            {
+                "layer": 1, "orientationX": "left", "orientationY": "top", "minimumMapHeight": 25,
+                "sprite": "BGclouds1", "size": "384, 256",
+                "dynamicParallax": true, "parallaxDistX": 0.10, "parallaxDistY": 0.9, "alpha" : 0.4
+            }, {
+                "layer": 2, "orientationX": "left", "orientationY": "top", "minimumMapHeight": 25,
+                "sprite": "BGclouds2", "size": "384, 256",
+                "dynamicParallax": true, "parallaxDistX": 0.15, "parallaxDistY": 0.75, "alpha" : 0.4
+            },
+            
+            {
+                "layer": 3, "orientationX": "left", "orientationY": "top", "maxMapHeight": 20,
+                "sprite": "BGcloudsMid1", "size": "416, 224", "location": "0, -60",
+                "dynamicParallax": true, "parallaxDistX": 0.2, "parallaxDistY": 1, "alpha" : 0.5
+            },{
+                "layer": 4, "orientationX": "left", "orientationY": "top", "maxMapHeight": 20,
+                "sprite": "BGcloudsMid2", "size": "416, 224", "location": "0, -60",
+                "dynamicParallax": true, "parallaxDistX": 0.3, "parallaxDistY": 0.9, "alpha" : 0.5
+            },
+            
+            {
+                "layer": 3, "orientationX": "left", "orientationY": "center", "minimumMapHeight": 35,
+                "sprite": "BGcloudsMid1", "size": "416, 224", "location": "0, -300",
+                "dynamicParallax": true, "parallaxDistX": 0.2, "parallaxDistY": 0.9, "alpha" : 0.5
+            },{
+                "layer": 4, "orientationX": "left", "orientationY": "center", "minimumMapHeight": 25,
+                "sprite": "BGcloudsMid2", "size": "416, 224", "location": "0, -60",
+                "dynamicParallax": true, "parallaxDistX": 0.3, "parallaxDistY": 0.9, "alpha" : 0.5
+            },
+
+            {
+                "layer": 3, "orientationX": "left", "orientationY": "bottom", 
+                "sprite": "BGhills1", "size": "576, 256",
+                "dynamicParallax": true, "parallaxDistX": 0.40, "parallaxDistY": 1
+            }, {
+                "layer": 2, "orientationX": "left", "orientationY": "bottom",
+                "sprite": "BGhills2", "size": "352, 324",
+                "dynamicParallax": true, "parallaxDistX": 0.20, "parallaxDistY": 1
+            }, {
+                "layer": 1, "orientationX": "left", "orientationY": "bottom",
+                "sprite": "BGhills3", "size": "224, 388",
+                "dynamicParallax": true, "parallaxDistX": 0.10, "parallaxDistY": 1, "alpha": 0.9
+            }
+            
+        ]
+    },
+
+
+    "DregsBG": {
+        "centerXaxis": true,
+        "props": [
+            {
+                "sprite": "DregsBGLayer1", "size": "1120,1120", "location": "0,130", "zPos":"600",
+                "parallaxDistX": 0.9, "parallaxDistY": 0.95
+            }, {
+                "sprite": "DregsBGLayer2", "size": "1120,1120", "location": "0,90", "zPos":"400",
+                "parallaxDistX": 0.9, "parallaxDistY": 0.85
+            }, {
+                "sprite": "DregsBGLayer3", "size": "1120,1120", "location": "0,100", "zPos":"200",
+                "parallaxDistX": 0.9, "parallaxDistY": 0.8
+            }, {
+                "sprite": "DregsBGLayer4", "size": "1120,1120", "location": "0,160",
+                "parallaxDistX": 0.9, "parallaxDistY": 0.7
+            }
+        ]
+    },
+    "DregsBG2": {
+        "centerXaxis": true,
+        "props": [
+            {
+                "sprite": "DregsBGLayer1", "size": "1120,1120", "location": "0,-170",
+                "parallaxDistX": 0.9, "parallaxDistY": 0.95
+            }, {
+                "sprite": "DregsBGLayer2", "size": "1120,1120", "location": "0,-170",
+                "parallaxDistX": 0.9, "parallaxDistY": 0.85
+            }, {
+                "sprite": "DregsBGLayer3", "size": "1120,1120", "location": "0,-160",
+                "parallaxDistX": 0.9, "parallaxDistY": 0.8
+            }, {
+                "sprite": "DregsBGLayer4", "size": "1120,1120", "location": "0,-100",
+                "parallaxDistX": 0.9, "parallaxDistY": 0.7
+            }
+        ]
+    },
+
+    "TraumaBG" : {
+        "shapes": [
+            {
+                "size": "max", "shape": "rectangle", "color": "#444444"
+            }
+        ]
+    }
+
+
+
+
+}

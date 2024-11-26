@@ -1,0 +1,118 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "tileMapData/_TestMap.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "D:/Peltast Software/HTML5 Projects/biscotti/lib/maps/Stage_1_1.tmx": {
+            "scale": 0.23567307692307693,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1432.0685434516524,
+                "y": 664.0554875560995
+            }
+        },
+        "D:/Peltast Software/HTML5 Projects/memento-respirare/lib/tileMapData/TestMap.tmx": {
+            "scale": 1.5494959677419355,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 261.37531715568275,
+                "y": 160.37473163749917
+            }
+        },
+        "D:/Peltast Software/HTML5 Projects/memento-respirare/lib/tileMaps/TestMap.tmx": {
+            "scale": 1.5494959677419355,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 231.04287294255417,
+                "y": 160.37473163749917
+            }
+        },
+        "D:/Peltast Software/HTML5 Projects/memento-respirare/lib/tileSets/HeartwoodTileset.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "D:/Peltast Software/HTML5 Projects/memento-respirare/lib/tileSets/TraumaTilesetData.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileMapData/HeartwoodTileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "tileMapData/HeartwoodTilesetData.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "tileMapData/ObjectTileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "tileMapData/TestMap.tmx": {
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 167.5,
+                "y": 151.75
+            }
+        },
+        "tileMapData/TraumaTilesetData.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "tileMapData/_TestMap.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 134.66666666666663,
+                "y": 123.16666666666664
+            }
+        },
+        "tileSets/HeartwoodTileset.tsj": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "D:/Peltast Software/HTML5 Projects/memento-respirare/lib/tileMaps",
+    "last.externalTilesetPath": "D:/Peltast Software/HTML5 Projects/memento-respirare/lib/data/tileMapData",
+    "last.imagePath": "D:/Peltast Software/HTML5 Projects/memento-respirare/lib/images/Tiles",
+    "last.worldFilePath": "D:/Peltast Software/HTML5 Projects/memento-respirare/lib/data/tileMapData",
+    "lastUsedTilesetExportFilter": "JSON tileset files (*.tsj *.json)",
+    "loadedWorlds": [
+        "D:/Peltast Software/HTML5 Projects/memento-respirare/lib/data/tileMapData/fff.world"
+    ],
+    "map.height": 20,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 30,
+    "openFiles": [
+        "tileMapData/_TestMap.tmx",
+        "tileMapData/HeartwoodTilesetData.tsx",
+        "tileMapData/ObjectTileset.tsx"
+    ],
+    "project": "MementoRespirareTiled.tiled-project",
+    "property.type": "ObjectType",
+    "recentFiles": [
+        "tileMapData/ObjectTileset.tsx",
+        "tileMapData/HeartwoodTilesetData.tsx",
+        "tileMapData/_TestMap.tmx",
+        "tileMapData/TraumaTilesetData.tsx",
+        "tileMapData/TestMap.tmx",
+        "D:/Peltast Software/HTML5 Projects/memento-respirare/lib/tileSets/TraumaTilesetData.tsj",
+        "tileMapData/HeartwoodTileset.tsx",
+        "D:/Peltast Software/HTML5 Projects/memento-respirare/lib/tileSets/HeartwoodTileset.tsj",
+        "D:/Peltast Software/HTML5 Projects/memento-respirare/lib/tileMapData/TestMap.tmx",
+        "D:/Peltast Software/HTML5 Projects/memento-respirare/lib/tileMaps/TestMap.tmx"
+    ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

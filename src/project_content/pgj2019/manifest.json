@@ -1,0 +1,27 @@
+{
+
+    "title": "You Have to Catch Your Breath",
+
+    "subjectHTML": [
+        "<iframe id=\"gameScreen\" src=\"lib/content/pgj2019/index.html\" width=\"960\" height=\"640\" frameborder=\"0\" scrolling=\"no\">"
+    ],
+
+    "audienceText": [
+        "Venture out and return all of the stars to the center of the map!<br><br>",
+        "<ul><li>WASD or Arrow keys to move</li>",
+        "<li>Hold Space to charge up, then release to attack</li>",
+        "<li>Press R to reset the stage</li>",
+        "<li>Be careful: the more you charge up your attacks, the more time it takes for you to recover!</li>",
+        "<li>You can only carry one star at a time.  Each one you return will reduce the recovery time on your attacks.</li></ul>"
+    ],
+    "devText": [
+        "Made in 24 hours for Philly Game Jam 2019 with the theme of \"recovery\".",
+        "<br><br>",
+        "I struggled a bit with this theme, and chose a perhaps overly literal interpretation - the recovery frames that are at least a small part of most action games.  ",
+        "Here the recovery is exaggerated to the point of being punishing, forcing the player to weigh the risk and reward of charging up their attack.  ",
+        "The more they do, the easier it is to land attacks against enemies seeking to surround them, but it also leaves them more vulnerable.",
+        "<br><br>",
+        "A detail worth noting is that the player's sweeping attack will start from one of eight angles based on which direction the player is facing."
+    ]
+
+}

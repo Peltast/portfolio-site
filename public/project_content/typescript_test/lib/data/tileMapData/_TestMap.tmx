@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="16">
+ <editorsettings>
+  <export target="../../tileMaps/TestMap.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="HeartwoodTilesetData.tsx"/>
+ <tileset firstgid="196" source="TraumaTilesetData.tsx"/>
+ <tileset firstgid="586" source="ObjectTileset.tsx"/>
+ <layer id="3" name="BG" width="30" height="20">
+  <properties>
+   <property name="type" propertytype="LayerType" value="background"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="Tiles" width="30" height="20">
+  <properties>
+   <property name="type" propertytype="LayerType" value="tiles"/>
+  </properties>
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,34,34,34,34,34,24,34,34,34,34,34,24,34,34,34,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,33,33,33,33,33,37,33,33,33,33,33,37,33,33,33,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,29,30,30,30,30,30,30,30,30,30,30,30,30,30,31,1,210,211,212,1,210,211,212,1,1,1,1,1,1,
+1,29,30,30,30,30,30,30,30,30,30,30,30,30,30,31,224,223,313,225,1,223,379,225,1,1,1,1,1,1,
+1,42,43,43,30,30,30,30,30,30,210,211,212,30,43,44,1,236,237,238,1,236,237,238,1,1,1,1,1,1,
+1,55,56,57,29,30,30,30,30,30,223,379,225,31,56,57,1,1,1,482,483,484,1,1,1,1,1,1,1,1,
+1,68,69,70,29,30,30,30,30,30,236,237,238,31,69,70,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,81,82,83,42,43,43,30,30,30,30,30,43,44,82,83,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,94,95,96,55,56,57,42,43,43,43,44,56,57,95,96,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,68,69,70,55,56,56,56,57,69,70,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,81,82,83,68,69,69,69,70,82,83,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,94,95,96,81,82,82,82,83,95,96,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,94,95,95,95,96,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <properties>
+   <property name="type" propertytype="LayerType" value="objects"/>
+  </properties>
+  <object id="1" type="Prop" gid="588" x="64" y="96" width="8" height="8">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="Flower"/>
+   </properties>
+  </object>
+  <object id="4" type="Prop" gid="588" x="128" y="160" width="8" height="8">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="Flower"/>
+   </properties>
+  </object>
+  <object id="5" type="Prop" gid="588" x="208" y="96" width="8" height="8">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="Flower"/>
+   </properties>
+  </object>
+  <object id="6" type="Prop" gid="590" x="82.589" y="138.636" width="8" height="8">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="CheckpointSpirit"/>
+   </properties>
+  </object>
+  <object id="8" type="Prop" gid="591" x="32.9249" y="89.249" width="8" height="8">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ShardOfLove"/>
+   </properties>
+  </object>
+  <object id="11" type="Prop" gid="589" x="145.092" y="72.9246" width="8" height="8">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="Shade"/>
+   </properties>
+  </object>
+  <object id="12" type="Prop" gid="590" x="120.098" y="140.909" width="8" height="8">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="CheckpointSpirit"/>
+   </properties>
+  </object>
+  <object id="13" type="Prop" gid="589" x="152.333" y="95.6667" width="8" height="8">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="Shade"/>
+   </properties>
+  </object>
+  <object id="14" type="Prop" gid="589" x="208.333" y="152.667" width="8" height="8">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="Shade"/>
+   </properties>
+  </object>
+  <object id="15" type="Prop" gid="590" x="99" y="132.667" width="8" height="8">
+   <properties>
+    <property name="hasCollision" type="bool" value="false"/>
+    <property name="imageSource" propertytype="ObjectType" value="ShardOfLove"/>
+    <property name="type" propertytype="ObjectType" value="CheckpointSpirit"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

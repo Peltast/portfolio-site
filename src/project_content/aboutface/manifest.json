@@ -1,0 +1,23 @@
+{
+
+    "title": "about-face",
+
+    "subjectType": "flash",
+    "subjectWidth": 840,
+    "subjectHeight": 600,
+    "subjectSrc": "lib/content/aboutface/about-face.swf",
+
+    "audienceText": [
+        "Hi! Would you like to go on an adventure? If you learn to change yourself, there's nothing that can stand in your way!",
+        "<br><br>...<br><br>",
+        "There's no point in trying. You should do yourself a favor and give up now."
+    ],
+
+    "devText": [
+        "about-face was the last game I published using Flash/AS3 and served as a fun exercise in level design and minimalist player guidance."
+    ],
+    
+    "gifs": 3,
+    "images": 5
+
+}
