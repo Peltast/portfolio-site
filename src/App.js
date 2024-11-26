@@ -4,12 +4,11 @@ import SiteLayout from './portfolio/siteLayout';
 import HomePage from './portfolio/homePage';
 import ProjectPage from './portfolio/projectPage';
 
-
 import './css/App.css';
 import './css/theme.css';
 
-
 function App() {
+
     return (
         <BrowserRouter>
             <Routes>

@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 
-import headerLogo from "../lib/images/peltast-logo-whiteheader.png";
-import headerLogoHover from "../lib/images/peltast-logo-redheader.png";
 import { ProjectData } from "../project_content/projectData";
 import ProjectMediaGallery from "./projectMediaGallery";
+
+import headerLogo from "../lib/images/peltast-logo-whiteheader.png";
+import headerLogoHover from "../lib/images/peltast-logo-redheader.png";
+
 
 export const ProjectPage = ({projectKey}) => {
 
@@ -13,7 +15,7 @@ export const ProjectPage = ({projectKey}) => {
     const imageNumber = Object.hasOwn(project, 'images') ? project.images : -1;
     const gifNumber = Object.hasOwn(project, 'gifs') ? project.gifs : -1;
     const projectHasMedia = imageNumber > 0 || gifNumber > 0;
-    
+
     return (
         <div>
 
@@ -70,6 +72,8 @@ export const ProjectPage = ({projectKey}) => {
                         </div>
 
                         <ProjectMediaGallery projectKey={projectKey} fileFormat={'png'} numOfFiles={imageNumber} />
+                        <br/>
+                        <ProjectMediaGallery projectKey={projectKey} fileFormat={'gif'} numOfFiles={gifNumber} />
 
                     </div>
                 }

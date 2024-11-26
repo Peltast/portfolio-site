@@ -6,18 +6,6 @@ export const ProjectType = {
     GAMEJAM: "Game Jam Submission"
 };
 
-// import {waidas_png_1} from '../project_content/waidas/images/png_1.png';
-// import {waidas_png_1_thumb} from '../project_content/waidas/images/png_1_thumb.png';
-// import {waidas_png_2} from '../project_content/waidas/images/png_2.png';
-// import {waidas_png_2_thumb} from '../project_content/waidas/images/png_2_thumb.png';
-// import {waidas_png_3} from '../project_content/waidas/images/png_3.png';
-// import {waidas_png_3_thumb} from '../project_content/waidas/images/png_3_thumb.png';
-// import {waidas_png_4} from '../project_content/waidas/images/png_4.png';
-// import {waidas_png_4_thumb} from '../project_content/waidas/images/png_4_thumb.png';
-// import {waidas_png_5} from '../project_content/waidas/images/png_5.png';
-// import {waidas_png_5_thumb} from '../project_content/waidas/images/png_5_thumb.png';
-// import {waidas_png_6} from '../project_content/waidas/images/png_6.png';
-// import {waidas_png_6_thumb} from '../project_content/waidas/images/png_6_thumb.png';
 
 export const ProjectData = {
 
@@ -28,8 +16,8 @@ export const ProjectData = {
         subjectHTML: () => {
             return (
                 <div>
-                    {/* <iframe width="640" height="360" src="//www.youtube.com/embed/dy2j7qpt7v0?autohide=1&showinfo=0&rel=0\" frameBorder="0" allowFullScreen></iframe>
-                    <br/><br/> */}
+                    <iframe style={{width: "100%", maxWidth: "640px" }} width="640" height="360" src="//www.youtube.com/embed/dy2j7qpt7v0?autohide=1&showinfo=0&rel=0\" allowFullScreen></iframe>
+                    <br/>
                 </div>
             );
         },
