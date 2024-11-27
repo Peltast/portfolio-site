@@ -28,7 +28,7 @@ export const ProjectPage = ({projectKey}) => {
                     <div>
                         <img id="headerLogo" src={headerLogo} />
                         <img id="headerLogoHover" src={headerLogoHover} />
-                        <span>Home</span>
+                        &nbsp;<span>Home</span>
                     </div>
                 </Link>
             </div>

@@ -216,7 +216,7 @@ export const ProjectData = {
         "images": 5
     },
 
-    "jidanhavoc": {
+    "jidan": {
         title: "Jidan Havoc",
         logo: "jidan_logo.png",
         contentType: "javascript",
