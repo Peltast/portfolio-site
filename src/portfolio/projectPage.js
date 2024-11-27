@@ -11,14 +11,18 @@ export const ProjectPage = ({projectKey}) => {
 
     const key = projectKey ?? "";
     const project = ProjectData[key];
+    
+    let imageNumber, gifNumber = -1;
+    let projectHasMedia = false;
 
-    const imageNumber = Object.hasOwn(project, 'images') ? project.images : -1;
-    const gifNumber = Object.hasOwn(project, 'gifs') ? project.gifs : -1;
-    const projectHasMedia = imageNumber > 0 || gifNumber > 0;
+    if (project) {
+        imageNumber = Object.hasOwn(project, 'images') ? project.images : -1;
+        gifNumber = Object.hasOwn(project, 'gifs') ? project.gifs : -1;
+        projectHasMedia = imageNumber > 0 || gifNumber > 0;
+    }
 
     return (
         <div>
-
             <div className="header">
                 <Link to="/">
                     <div>
@@ -28,75 +32,77 @@ export const ProjectPage = ({projectKey}) => {
                     </div>
                 </Link>
             </div>
+            
+            { project && <>
 
-            <div className="container-fluid mainColumn">
-                <div className="row projectTitle">
-                    <div className="" id="projectTitle">
-                        {project.title}
-                    </div>
-                </div>
-
-                { project.subjectHTML && 
-                    <div className="row">
-                        <div className="projectSubject" id="projectSubject">
-                            { project.subjectHTML() }
+                <div className="container-fluid mainColumn">
+                    <div className="row projectTitle">
+                        <div className="" id="projectTitle">
+                            {project.title}
                         </div>
                     </div>
-                }
 
-                <div id="projectInfo" className="row">
-
-                    { project.audienceTextHTML &&
-                        <div className="projectDescription">
-                            { project.audienceTextHTML() }
+                    { project.subjectHTML && 
+                        <div className="row">
+                            <div className="projectSubject" id="projectSubject">
+                                { project.subjectHTML() }
+                            </div>
                         </div>
                     }
 
-                    { project.devTextHTML && 
-                        <>
-                            <div className="projectHeader" id="devHeader" >
-                                About
-                            </div>
+                    <div id="projectInfo" className="row">
 
+                        { project.audienceTextHTML &&
                             <div className="projectDescription">
-                                { project.devTextHTML() }
+                                { project.audienceTextHTML() }
                             </div>
-                        </>
+                        }
+
+                        { project.devTextHTML && 
+                            <>
+                                <div className="projectHeader" id="devHeader" >
+                                    About
+                                </div>
+
+                                <div className="projectDescription">
+                                    { project.devTextHTML() }
+                                </div>
+                            </>
+                        }
+                    </div>
+
+                    { projectHasMedia &&
+                        <div className="row" id="projectGallery">
+                            <div className="projectHeader" id="mediaHeader" >
+                                Media
+                            </div>
+
+                            <ProjectMediaGallery projectKey={projectKey} fileFormat={'png'} numOfFiles={imageNumber} />
+                            <br/>
+                            <ProjectMediaGallery projectKey={projectKey} fileFormat={'gif'} numOfFiles={gifNumber} />
+
+                        </div>
                     }
+
+                    { project.reviewsHTML &&
+                        <div className="row" id="projectReviews">
+                            <div className="projectHeader" id="reviewsHeader">
+                                Reviews
+                            </div>
+                            { project.reviewsHTML() }
+                        </div>
+                    }
+                    { project.links &&
+                        <div className="row" id="projectLinks">
+                            <div className="projectHeader" id="linksHeader" >
+                                Links
+                            </div>
+                        </div>
+                    }
+
                 </div>
-
-                { projectHasMedia &&
-                    <div className="row" id="projectGallery">
-                        <div className="projectHeader" id="mediaHeader" >
-                            Media
-                        </div>
-
-                        <ProjectMediaGallery projectKey={projectKey} fileFormat={'png'} numOfFiles={imageNumber} />
-                        <br/>
-                        <ProjectMediaGallery projectKey={projectKey} fileFormat={'gif'} numOfFiles={gifNumber} />
-
-                    </div>
-                }
-
-                { project.reviewsHTML &&
-                    <div className="row" id="projectReviews">
-                        <div className="projectHeader" id="reviewsHeader">
-                            Reviews
-                        </div>
-                        { project.reviewsHTML() }
-                    </div>
-                }
-                { project.links &&
-                    <div className="row" id="projectLinks">
-                        <div className="projectHeader" id="linksHeader" >
-                            Links
-                        </div>
-                    </div>
-                }
-
-
-            </div>
-
+            </>
+        }
         </div>
     );
 

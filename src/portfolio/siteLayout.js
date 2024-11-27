@@ -1,7 +1,14 @@
-import { Outlet } from "react-router-dom";
+import React from "react";
+import { Outlet, useLocation } from "react-router-dom";
 
 
 export const SiteLayout = () => {
+    const location = useLocation();
+    
+    React.useLayoutEffect(() => {
+        document.documentElement.scrollTo({ top:0, left:0, behavior: "instant" });
+    }, [location.pathname]);
+
     return (
         <div>
             <Outlet />

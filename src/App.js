@@ -17,7 +17,9 @@ function App() {
 
                     <Route index element={ <HomePage /> } />
                     
-                    <Route path="projectPage/:waidas" element={ <ProjectPage projectKey="waidas" /> } />
+                    <Route path="projectPage/waidas" element={ <ProjectPage projectKey="waidas" /> } />
+                    <Route path="projectPage/aboutface" element={ <ProjectPage projectKey="aboutface" /> } />
+                    <Route path="projectPage/jidanhavoc" element={ <ProjectPage projectKey="jidanhavoc" /> } />
 
                     <Route path="projectPage" element={ <ProjectPage /> } />
                     

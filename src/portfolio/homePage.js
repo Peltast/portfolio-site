@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import logo from '../lib/images/peltast-logo3.png';
 import portrait from '../lib/images/portrait.png';
+import ProjectGrid from './projectGrid';
 
 
 export const HomePage = () => {
@@ -41,8 +42,13 @@ export const HomePage = () => {
                     Projects
                 </div>
 
+                <ProjectGrid />
+
                 <div>
-                    <Link to="/projectPage/:waidas">WAIDAS</Link>
+                    <Link to="/projectPage/waidas">WAIDAS</Link>
+                    <Link to="/projectPage/aboutface">about-face</Link>
+                    <Link to="/projectPage/jidanhavoc">Jidan Havoc</Link>
+
                     <Link to="/projectPage">Click me</Link>
                 </div>
 
