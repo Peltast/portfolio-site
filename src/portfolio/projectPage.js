@@ -32,7 +32,7 @@ export const ProjectPage = ({projectKey}) => {
                     </div>
                 </Link>
             </div>
-            
+
             { project && <>
 
                 <div className="container-fluid mainColumn">
@@ -92,11 +92,12 @@ export const ProjectPage = ({projectKey}) => {
                             { project.reviewsHTML() }
                         </div>
                     }
-                    { project.links &&
+                    { project.linksHTML &&
                         <div className="row" id="projectLinks">
                             <div className="projectHeader" id="linksHeader" >
                                 Links
                             </div>
+                            { project.linksHTML() }
                         </div>
                     }
 
