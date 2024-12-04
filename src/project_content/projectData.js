@@ -14,6 +14,7 @@ export const ProjectData = {
         logo: "waid_logo.png",
         contentType: "flash",
         year: 2012,
+        credits: "Developer, designer, writer, artist",
 
         subjectHTML: () => {
             return (
@@ -76,6 +77,7 @@ export const ProjectData = {
         logo: "waidr_logo.png",
         contentType: "flash",
         year: 2014,
+        credits: "Developer, designer, writer, artist",
 
         subjectHTML: () => {
             return (
@@ -106,6 +108,9 @@ export const ProjectData = {
                 <p>
                     "Rebirth" makes use of additions I had created for the sequel, such as tracking/displaying visited dialogue, a save/load system, and characters AI/pathfinding.  Overall, it was fun to put a new spin on the original game's art, writing, and design, using what I had learned since its release.
                 </p>
+                <p>
+                    <a href="https://bitbucket.org/Peltast/why-am-i-dead-rebirth/src/master/" target="_blank">You can find the code repository here.</a>
+                </p>
             </>
         ); },
         linksHTML: () => { return (
@@ -130,6 +135,7 @@ export const ProjectData = {
         title: "Why Am I Dead at Sea",
         logo: "waidas_logo.png",
         contentType: "youtube",
+        credits: "Developer, designer, writer, artist",
         year: 2015,
 
         subjectHTML: () => {
@@ -178,7 +184,7 @@ export const ProjectData = {
                         <a href="https://gamerant.com/why-am-i-dead-at-sea-reviews/">- GameRant</a>  
                     </p>
                     <p>
-                        "If you like mysteries, are in the mood for something a little different, and don't mind a game that's mostly reading dialogue, there's a lot to enjoy in this indie title.\"<br/>
+                        "If you like mysteries, are in the mood for something a little different, and don't mind a game that's mostly reading dialogue, there's a lot to enjoy in this indie title."<br/>
                         <a href="https://adventuregamers.com/articles/view/29081">- Adventure Gamers</a>
                     </p>
                     <p>
@@ -210,8 +216,6 @@ export const ProjectData = {
 
                         <p>"Why Am I Dead At Sea is one of the most intelligently crafted games that I have experienced to date. The grace in which important social issues are tackled is astounding. It is sincerely a must play title."</p>
 
-
-
                         <p>"Do not sleep on this gem. I repeat, do not sleep on it. Why Am I Dead At Sea is an underrated gem that you need to experience."</p>
 
                         <p>"Why Am I Dead At Sea could have easily been silly and absurd. And it is at times--but it's also well-written, thought-provoking, and often downright moving. I'm only sorry it took me so long to clear it from my backlog."</p>
@@ -231,6 +235,7 @@ export const ProjectData = {
         logo: "about-face_logo.png",
         contentType: "flash",
         year: 2016,
+        credits: "Developer, designer, writer, artist",
 
         subjectHTML: () => {
             return (
@@ -272,6 +277,7 @@ export const ProjectData = {
         logo: "jidan_logo.png",
         contentType: "javascript",
         year: 2019,
+        credits: "Developer, designer, artist",
 
         subjectHTML: () => {
             return (
@@ -294,10 +300,10 @@ export const ProjectData = {
                         Jidan Havoc was an action-platformer written in Javascript with CreateJS over several months.  It is a simple action-platformer that stretches a very small set of mechanics as far as they can go.  Through a gradual difficulty curve and scoring system it incentivizes and rewards technical perfection from the player.  While this was a small and modest project, I have gained a lot from player feedback to it, and will bring that to future projects.
                     </p>
                     <p>
-                        I had a lot of fun adding the polish to this game: different player animations based on state (eg separate animations when colliding with walls or missing attacks), particles, parallax backgrounds, and animated menus.
+                        I had a lot of fun adding the polish to this game: different player animations based on state (eg separate animations when colliding with walls or missing attacks), particles, parallax backgrounds, and animated menus.  As the game is just simple Javascript, I implemented all of these things basically from scratch.  Not the most time-effective, but very fun and educational!
                     </p>
                     <p>
-                        As this game was written in Javascript with CreateJS, I implemented all of these things basically from scratch.  Not the most time-effective, but very fun and educational!
+                        <a href="https://bitbucket.org/Peltast/jidan-havoc/src/master/" target="_blank">You can find the code repository here.</a>
                     </p>
                 </>
             );
@@ -312,6 +318,7 @@ export const ProjectData = {
         logo: "ygtta_logo.png",
         contentType: "youtube",
         year: 2019,
+        credits: "Developer, designer, writer, artist",
 
         subjectHTML: () => {
             return (
@@ -339,6 +346,9 @@ export const ProjectData = {
                     <p>
                         This was a project I worked on for several months that began as a small idea: an open-world adventure game where you can pick up and move everything.  I had so much fun implementing different areas and themes that before I knew it, I had five fully implemented regions and hundreds of maps.  The small idea that I wanted to create was finished, but it became a bit buried within other ideas I added.  I am happy with a lot of the things I created here, and am excited to return to the ideas in this project some day, but it needs more prototyping and re-balancing.
                     </p>
+                    <p>
+                        <a href="https://bitbucket.org/Peltast/your-guide-to-the-afterlife/src/master/" target="_blank">You can find the code repository here.</a>
+                    </p>
                 </>
             );
         },
@@ -351,6 +361,7 @@ export const ProjectData = {
         logo: "jidan_logo.png",
         contentType: "javascript",
         year: 2024,
+        credits: "Developer, designer, artist",
         
         subjectHTML: () => {
             return (
@@ -367,7 +378,7 @@ export const ProjectData = {
                         Some assets and basic mechanics from an earlier platformer were re-used, but with much smoother movement and a greatly expanded moveset.  The goal in this project is less about asking for technical excellence from the player, and more in providing them the tools for more creative and expressive movement.
                     </p>
                     <p>
-                        This was written in Typescript with PixiJS.  <a href="https://bitbucket.org/Peltast/yolk/src/main/">Code repository</a>
+                        This was written in Typescript with PixiJS.  <a href="https://bitbucket.org/Peltast/yolk/src/main/" target="_blank">You can find the code repository here.</a>
                     </p>
                 </>
             );
@@ -488,7 +499,8 @@ export const ProjectData = {
         devTextHTML: () => {
             return ( <>
                     <p>
-                        Made in 48 hours for Global Game Jam 2018 with the theme of "repair".
+                        Made in 48 hours for Global Game Jam 2018 with the theme of "repair". &nbsp;&nbsp;
+                          <a href="https://bitbucket.org/Peltast/overworkflow/src/master/" target="_blank">You can find its code repository here.</a>
                     </p>
                     <p>
                         This submission is quite punishing - I was trying to create the feeling of narrowly holding off disaster, but I overdid it a little and it seems to always lead to disaster pretty quickly! That said, I'm still happy with what I came up with for this game jam.  I have plenty of ideas on how I could improve the game's balance, and I think the concept has a lot of potential.  I'd definitely like to return to this and see where it leads.

@@ -40,6 +40,9 @@ export const ProjectPage = ({projectKey}) => {
                         <div className="" id="projectTitle">
                             {project.title}
                         </div>
+                        { project.credits && <div className="projectCredit">
+                            {project.credits}
+                        </div>}
                     </div>
 
                     { project.subjectHTML && 

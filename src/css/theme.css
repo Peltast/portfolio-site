@@ -190,6 +190,11 @@ body {
   font-size: 36px;
   text-align: center;
 }
+.projectCredit {
+  padding: 10px 10px;
+  font-style: italic;
+  font-size: 24px;
+}
 .projectHeader {
   padding: 10px 10px;
   font-family: 'Share Tech Mono', monospace;
