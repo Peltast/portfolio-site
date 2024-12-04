@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="80" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="122">
+ <editorsettings>
+  <export target="../../../tileMaps/Tower_Mid.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../../../tileSets/Yolk_World_1_TilesetData.json"/>
+ <layer id="1" name="Tile Layer 1" width="80" height="40">
+  <properties>
+   <property name="type" propertytype="LayerType" value="tiles"/>
+  </properties>
+  <data encoding="csv">
+48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,
+48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,48,
+48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,48,
+48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,
+48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,48,0,0,48,48,48,48,0,0,0,48,48,0,0,0,0,0,0,0,48,48,0,0,0,48,48,48,0,0,0,0,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,0,0,0,48,
+48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,0,0,0,48,48,0,0,0,0,0,0,0,48,48,0,0,0,48,48,48,0,0,0,0,48,48,48,48,0,0,0,0,48,48,48,0,0,0,0,0,0,48,48,48,0,0,0,48,
+48,48,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,0,0,0,0,48,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,48,48,48,0,0,0,0,0,0,0,48,48,0,0,0,48,
+48,48,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,0,0,0,0,48,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,48,
+48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,0,0,0,0,0,48,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,0,0,0,48,
+48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,48,0,0,0,48,
+48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,0,48,48,48,48,48,0,0,0,48,
+48,48,48,0,0,0,0,0,0,0,0,0,0,48,48,48,0,0,0,0,0,0,0,0,0,48,48,48,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,48,48,48,48,0,0,0,48,
+48,48,48,0,0,0,0,0,0,0,0,0,0,48,48,48,48,48,48,0,0,0,48,48,48,48,48,48,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,0,0,0,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,48,48,48,48,0,0,0,48,
+48,48,48,0,0,0,0,0,48,48,0,0,0,48,48,48,48,48,48,0,0,0,48,48,48,48,48,0,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,0,0,0,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,48,48,48,48,0,0,0,48,
+48,48,48,0,0,0,0,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,48,48,48,48,48,0,0,0,0,0,0,48,48,48,0,0,0,0,0,0,0,0,48,48,48,0,0,0,0,48,0,0,0,48,
+48,48,48,0,0,0,0,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,48,48,48,48,48,48,0,0,0,0,0,0,0,48,48,48,0,0,0,0,0,0,0,0,48,48,0,0,0,0,0,48,0,0,0,48,
+48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,48,0,0,0,0,0,48,0,0,0,48,
+48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,48,0,0,0,48,48,48,0,0,0,48,
+48,48,48,48,48,48,48,0,0,0,0,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,0,0,0,0,48,48,48,0,0,0,48,
+48,48,48,48,48,48,48,0,0,0,0,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,0,0,0,0,0,0,0,0,0,0,48,48,48,48,0,0,0,48,48,48,48,0,0,0,48,
+48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,0,0,0,0,0,0,0,48,48,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,48,
+48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,48,48,48,0,0,0,0,0,0,0,48,48,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,48,
+48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,0,0,0,0,0,48,48,48,48,0,0,0,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,48,
+48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,0,0,0,0,0,48,48,48,48,0,0,0,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,48,
+48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,48,
+48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,48,48,48,48,48,48,48,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,48,
+48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,48,48,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,
+48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,48,48,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,
+48,48,0,0,0,0,0,0,0,0,0,0,0,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,0,0,0,48,
+48,48,0,0,0,0,0,0,0,0,0,0,0,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,
+48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,48,48,48,48,48,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,
+48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,48,48,48,48,48,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,
+48,48,0,0,0,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,0,48,48,0,0,0,0,48,48,0,0,0,48,48,0,0,0,0,0,48,48,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,48,
+48,48,0,0,0,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,48,48,48,48,0,0,0,48,48,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,48,
+48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,48,48,48,48,0,0,0,48,48,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,48,
+48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,0,0,48,48,48,0,0,0,48,48,0,0,0,0,48,48,48,48,48,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,48,
+48,48,0,0,0,0,0,0,0,0,48,48,48,48,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,0,48,48,0,0,0,48,48,0,0,0,0,48,48,48,48,48,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,48,
+48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,
+48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,0,0,0,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,
+48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <properties>
+   <property name="type" propertytype="LayerType" value="objects"/>
+  </properties>
+  <object id="55" type="Prop" gid="31" x="1216" y="128" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="56" type="Prop" gid="31" x="1232" y="128" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="57" type="Prop" gid="31" x="1248" y="128" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="58" type="Prop" gid="31" x="624" y="400" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="59" type="Prop" gid="31" x="640" y="400" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="60" type="Prop" gid="31" x="656" y="400" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="61" type="Prop" gid="31" x="624" y="416" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="62" type="Prop" gid="31" x="640" y="416" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="63" type="Prop" gid="31" x="656" y="416" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="64" type="Prop" gid="31" x="1216" y="224" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="65" type="Prop" gid="31" x="1232" y="224" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="66" type="Prop" gid="31" x="1248" y="224" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="67" type="Prop" gid="31" x="1216" y="352" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="68" type="Prop" gid="31" x="1232" y="352" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="69" type="Prop" gid="31" x="1248" y="352" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="70" type="Prop" gid="31" x="1088" y="608" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="71" type="Prop" gid="31" x="1088" y="624" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="72" type="Prop" gid="31" x="1072" y="624" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="73" type="Prop" gid="31" x="1072" y="608" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="74" type="Prop" gid="31" x="928" y="544" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="75" type="Prop" gid="31" x="912" y="560" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="76" type="Prop" gid="31" x="912" y="544" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="77" type="Prop" gid="31" x="928" y="560" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="78" type="Prop" gid="31" x="864" y="464" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="79" type="Prop" gid="31" x="848" y="480" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="80" type="Prop" gid="31" x="848" y="464" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="81" type="Prop" gid="31" x="864" y="480" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="82" type="Prop" gid="31" x="784" y="608" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="83" type="Prop" gid="31" x="768" y="624" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="84" type="Prop" gid="31" x="768" y="608" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="85" type="Prop" gid="31" x="784" y="624" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="86" type="Prop" gid="31" x="752" y="464" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="87" type="Prop" gid="31" x="736" y="480" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="88" type="Prop" gid="31" x="736" y="464" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="89" type="Prop" gid="31" x="752" y="480" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="90" type="Prop" gid="31" x="784" y="544" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="91" type="Prop" gid="31" x="768" y="560" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="92" type="Prop" gid="31" x="768" y="544" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="93" type="Prop" gid="31" x="784" y="560" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="94" type="Prop" gid="31" x="720" y="576" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="95" type="Prop" gid="31" x="736" y="576" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="96" type="Prop" gid="31" x="944" y="544" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="97" type="Prop" gid="31" x="944" y="560" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="98" type="Prop" gid="31" x="864" y="608" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="99" type="Prop" gid="31" x="848" y="624" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="100" type="Prop" gid="31" x="848" y="608" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="101" type="Prop" gid="31" x="864" y="624" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="102" type="Prop" gid="31" x="720" y="496" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="103" type="Prop" gid="31" x="704" y="512" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="104" type="Prop" gid="31" x="704" y="496" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="105" type="Prop" gid="31" x="720" y="512" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="106" type="Prop" gid="31" x="688" y="496" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="107" type="Prop" gid="31" x="672" y="512" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="108" type="Prop" gid="31" x="672" y="496" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="109" type="Prop" gid="31" x="688" y="512" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="110" type="Prop" gid="31" x="960" y="432" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="111" type="Prop" gid="31" x="960" y="448" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="112" type="Prop" gid="31" x="976" y="432" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="113" type="Prop" gid="31" x="976" y="448" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="114" type="Prop" gid="31" x="960" y="464" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="115" type="Prop" gid="31" x="960" y="480" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="116" type="Prop" gid="31" x="976" y="464" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="117" type="Prop" gid="31" x="976" y="480" width="16" height="16">
+   <properties>
+    <property name="type" propertytype="ObjectType" value="ProjectileEnemy"/>
+   </properties>
+  </object>
+  <object id="118" type="Object" gid="2" x="320" y="320" width="16" height="16">
+   <properties>
+    <property name="destinationMap" value="Sandbox"/>
+    <property name="destinationX" type="int" value="29"/>
+    <property name="destinationY" type="int" value="26"/>
+    <property name="type" propertytype="ObjectType" value="Portal"/>
+   </properties>
+  </object>
+  <object id="119" type="Object" gid="2" x="624" y="640" width="16" height="16">
+   <properties>
+    <property name="destinationMap" value="Tower_Base"/>
+    <property name="destinationX" type="int" value="40"/>
+    <property name="destinationY" type="int" value="2"/>
+    <property name="type" propertytype="ObjectType" value="Transition"/>
+   </properties>
+  </object>
+  <object id="120" type="Object" gid="2" x="640" y="640" width="16" height="16">
+   <properties>
+    <property name="destinationMap" value="Tower_Base"/>
+    <property name="destinationX" type="int" value="40"/>
+    <property name="destinationY" type="int" value="2"/>
+    <property name="type" propertytype="ObjectType" value="Transition"/>
+   </properties>
+  </object>
+  <object id="121" type="Object" gid="2" x="656" y="640" width="16" height="16">
+   <properties>
+    <property name="destinationMap" value="Tower_Base"/>
+    <property name="destinationX" type="int" value="40"/>
+    <property name="destinationY" type="int" value="2"/>
+    <property name="type" propertytype="ObjectType" value="Transition"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

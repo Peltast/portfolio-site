@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+  <head>
+
+    <style>
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+
+    <script>
+      function preventUseOfDefaultKeys(event) {
+          if (event.keyCode == 32 || event.keyCode == 38 || event.keyCode == 40 || event.keyCode == 37 || event.keyCode == 39) { // spacebar, up, down, left, right
+              event.preventDefault();
+          }
+      }
+    </script>
+
+    <script type="text/javascript">
+      // Append the script with the app bundle src so we can create a random query string to avoid caching the app bundle.
+      // TODO: When the app is nearing end of development, this should be replaced with more static release numbers.
+      // But for development, any/all caching is undesirable.
+
+      var appScript = document.createElement("script");
+      
+      appScript.type = "module";
+      appScript.src = "./dist/app.js?v=" + Math.random();
+
+      document.head.appendChild(appScript);
+    </script>
+    
+  </head>
+
+  <body style="background-color: #000000; text-align: center;" onkeydown="preventUseOfDefaultKeys(event);" >
+    
+    <div id="gameCanvas">
+    </div>
+
+  </body>
+
+</html>

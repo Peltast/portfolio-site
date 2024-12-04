@@ -17,7 +17,11 @@ export const ProjectData = {
 
         subjectHTML: () => {
             return (
-                <object type="application/x-shockwave-flash" data="../project_content/waid/Shade.swf" height="540" width="400"></object>
+                <>
+                    <object type="application/x-shockwave-flash" data="../project_content/waid/Shade.swf" height="540" width="400"></object>
+                    <br/>
+                    <a href="https://www.newgrounds.com/portal/view/606173">Play on Newgrounds!</a>
+                </>
             );
         },
         audienceTextHTML: () => {
@@ -75,7 +79,11 @@ export const ProjectData = {
 
         subjectHTML: () => {
             return (
-                <object type="application/x-shockwave-flash" data="../project_content/waidr/WhyAmIDeadRebirth.swf" height="540" width="400"></object>
+                <>
+                    <object type="application/x-shockwave-flash" data="../project_content/waidr/WhyAmIDeadRebirth.swf" height="540" width="400"></object>
+                    <br/>
+                    <a href="https://www.newgrounds.com/portal/view/646983">Play on Newgrounds!</a>
+                </>
             );
         },
         audienceTextHTML: () => {
@@ -181,6 +189,39 @@ export const ProjectData = {
                     </p>
                 </>
             );
+        },
+        userReviewsHTML: () => {
+            return (
+                <>
+                    <p>Here are some highlights from Steam user reviews!</p>
+                    <div style={{ paddingLeft: "50px", fontSize: "10pt" }} >
+                        
+                        <p>"I finished it the same day I bought it because I couldn't stop playing."</p>
+                        
+                        <p>"THIS GAME IS A ♥♥♥♥♥♥♥ MASTERPIECE"</p>
+
+                        <p>"I finished it in only a few sittings and it took that long purely because there were a couple parts so heartbreaking that I had to put it down for a bit, otherwise I'm sure I would've pushed myself through it all in a day."</p>
+
+                        <p>"I was completely enthralled by this game and had to play it through in only two sittings."</p>
+
+                        <p>"Holy crap. Why didn't I buy this game sooner? I thought I'd be playing this game 4-5 hours max...I was wrong!"</p>
+
+                        <p>"Wow, what a ride this was. I expected to fire it up for a moment just to check it out and I ended up glued to the game until I 100% the whole thing."</p>
+
+                        <p>"Why Am I Dead At Sea is one of the most intelligently crafted games that I have experienced to date. The grace in which important social issues are tackled is astounding. It is sincerely a must play title."</p>
+
+
+
+                        <p>"Do not sleep on this gem. I repeat, do not sleep on it. Why Am I Dead At Sea is an underrated gem that you need to experience."</p>
+
+                        <p>"Why Am I Dead At Sea could have easily been silly and absurd. And it is at times--but it's also well-written, thought-provoking, and often downright moving. I'm only sorry it took me so long to clear it from my backlog."</p>
+
+                        <p>"I actually think about this game a lot, even four years later."</p>
+
+
+                    </div>
+                </>
+            );
         }
         
     },
@@ -193,7 +234,11 @@ export const ProjectData = {
 
         subjectHTML: () => {
             return (
-                <object type="application/x-shockwave-flash" data="../project_content/aboutface/about-face.swf" height="600" width="840"></object>
+                <>
+                    <object type="application/x-shockwave-flash" data="../project_content/aboutface/about-face.swf" height="600" width="840"></object>
+                    <br/>
+                    <a href="https://www.newgrounds.com/portal/view/676121">Play on Newgrounds!</a>
+                </>
             );
         },
         audienceTextHTML: () => {
@@ -256,7 +301,10 @@ export const ProjectData = {
                     </p>
                 </>
             );
-        }
+        },
+
+        images: 3,
+        gifs: 4
     },
 
     "ygtta": {
@@ -294,9 +342,39 @@ export const ProjectData = {
                 </>
             );
         },
-        gifs: 4
+        images: 3,
+        gifs: 6
     },
 
+    "yotwm_proto": {
+        title: "Yolk of the Wish Machine (prototype)",
+        logo: "jidan_logo.png",
+        contentType: "javascript",
+        year: 2024,
+        
+        subjectHTML: () => {
+            return (
+                <iframe src="../project_content/yotwm_proto/index.html" width="540" height="360" frameBorder="0" scrolling="no" />
+            );
+        },
+        devTextHTML: () => {
+            return (
+                <>
+                    <p>
+                        A prototype for an action-platformer with vertical progression.  At the beginning, you can't even jump, but a short series of levels quickly introduce more and more moves to the player.  The game ends with a larger sandbox area containing additional player upgrades.
+                    </p>
+                    <p>
+                        Some assets and basic mechanics from an earlier platformer were re-used, but with much smoother movement and a greatly expanded moveset.  The goal in this project is less about asking for technical excellence from the player, and more in providing them the tools for more creative and expressive movement.
+                    </p>
+                    <p>
+                        This was written in Typescript with PixiJS.  <a href="https://bitbucket.org/Peltast/yolk/src/main/">Code repository</a>
+                    </p>
+                </>
+            );
+        },
+
+        gifs: 5
+    },
 
 
     "ggj2018": {

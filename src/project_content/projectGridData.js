@@ -12,6 +12,11 @@ export const ProjectGridData = {
         "type": "Prototype",
         "row": 2
     },
+    "yotwm_proto": {
+        "title": "Yolk",
+        "type": "Prototype",
+        "row": 2
+    },
     "jidan": {
         "title": "Jidan Havoc",
         "type": "Freeware",

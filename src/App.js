@@ -23,6 +23,7 @@ function App() {
                     <Route path="projectPage/aboutface" element={ <ProjectPage projectKey="aboutface" /> } />
                     <Route path="projectPage/jidan" element={ <ProjectPage projectKey="jidan" /> } />
                     <Route path="projectPage/ygtta" element={ <ProjectPage projectKey="ygtta" /> } />
+                    <Route path="projectPage/yotwm_proto" element={ <ProjectPage projectKey="yotwm_proto" /> } />
                     
                     <Route path="projectPage/ggj2018" element={ <ProjectPage projectKey="ggj2018" /> } />
                     <Route path="projectPage/ggj2019" element={ <ProjectPage projectKey="ggj2019" /> } />

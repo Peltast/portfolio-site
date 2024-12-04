@@ -1,0 +1,839 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Dining Room.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "C:/Peltast Software/_Projects/Javascript Projects/ggj2019/lib/maps/Glidebox.tmx": {
+            "scale": 0.22067708333333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2311.069152702384,
+                "y": 2089.025253717253
+            }
+        },
+        "C:/Peltast Software/_Projects/Javascript Projects/ggj2019/lib/maps/Glidebox.tmx#Tileset": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_Projects/Javascript Projects/ggj2019/lib/maps/Sandbox.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3384,
+                "y": 2848
+            }
+        },
+        "C:/Peltast Software/_Projects/Javascript Projects/ggj2019/lib/maps/Sandbox.tmx#Tileset": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_Projects/Javascript Projects/jidan-havoc/lib/maps/Demo.tmx": {
+            "scale": 1.2330208333333332,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320.35144039874973,
+                "y": 240.466334375264
+            }
+        },
+        "C:/Peltast Software/_Projects/Javascript Projects/jidan-havoc/lib/maps/Demo.tmx#ObjectTileSet": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_Projects/Javascript Projects/jidan-havoc/lib/maps/DevRoom.tmx": {
+            "scale": 0.32285156249999997,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1279.2256503327287,
+                "y": 481.64549304295235
+            }
+        },
+        "C:/Peltast Software/_Projects/Javascript Projects/jidan-havoc/lib/maps/DevRoom.tmx#ObjectTileSet": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_Projects/Javascript Projects/jidan-havoc/lib/tiles/World1.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_Projects/Javascript Projects/jidan-havoc/lib/tiles/World3.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_Projects/Typescript Projects/yolk/lib/tileSets/Yolk_World_1_TilesetData.json": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "C:/Peltast Software/_Projects/Typescript Projects/yolk/lib/tileSets/Yolk_World_2_TilesetData.json": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_Projects/Typescript Projects/yolk/lib/tileSets/Yolk_World_3_TilesetData.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Basement_1.tmx": {
+            "scale": 0.7398125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 494.71994593224633,
+                "y": 400.77722395877333
+            }
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Basement_1.tmx#AIGrid": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Basement_1.tmx#Basement Set": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Basement_1.tmx#PropGrid": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Basement_2.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 477.33333333333326,
+                "y": 244.83333333333331
+            }
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Basement_2.tmx#AIGrid": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Basement_2.tmx#Basement Set": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Boat.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 807.3333333333333,
+                "y": 381.66666666666663
+            }
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Boat.tmx#AIGrid": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Boat.tmx#PropGrid": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Boat.tmx#Tileset": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Dining Room.tmx": {
+            "scale": 1.0275173611111112,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 303.64450451972624,
+                "y": 305.1043338683788
+            }
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Dining Room.tmx#AIGrid": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Dining Room.tmx#Maintiles": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Dining Room.tmx#PropGrid": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Floor 1.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 223,
+                "y": 390.25
+            }
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Floor 1.tmx#AIGrid": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Floor 1.tmx#Maintiles": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Floor 1.tmx#PropGrid": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/jidan-havoc/lib/maps/Stage_10_1.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 920,
+                "y": 620.6666666666666
+            }
+        },
+        "C:/Peltast Software/_projects/javascript_projects/jidan-havoc/lib/maps/Stage_10_1.tmx#ObjectTileSet": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/jidan-havoc/lib/maps/Stage_1_1.tmx": {
+            "scale": 0.6211538461538462,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 652.0123839009287,
+                "y": 71.64086687306502
+            }
+        },
+        "C:/Peltast Software/_projects/javascript_projects/jidan-havoc/lib/maps/Stage_1_2.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512,
+                "y": 583
+            }
+        },
+        "C:/Peltast Software/_projects/javascript_projects/jidan-havoc/lib/maps/Stage_1_2.tmx#ObjectTileSet": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/jidan-havoc/lib/maps/Stage_1_3.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 498,
+                "y": 407
+            }
+        },
+        "C:/Peltast Software/_projects/javascript_projects/jidan-havoc/lib/maps/Stage_1_3.tmx#ObjectTileSet": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/jidan-havoc/lib/maps/Stage_6_1.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 888,
+                "y": 479
+            }
+        },
+        "C:/Peltast Software/_projects/javascript_projects/jidan-havoc/lib/tiles/World1.tsx": {
+            "scaleInDock": 0.5
+        },
+        "C:/Peltast Software/_projects/javascript_projects/jidan-havoc/lib/tiles/World3.tsx": {
+            "scaleInDock": 0.75
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/AtriumIntro.tmx": {
+            "scale": 0.45125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 766.7590027700832,
+                "y": 667.0360110803324
+            }
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/AtriumIntro.tmx#ObjectTileSet": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/Demo2.tmx": {
+            "scale": 0.9025,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 478.67036011080336,
+                "y": 332.40997229916894
+            }
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/Demo2.tmx#ObjectTileSet": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/Demo2.tmx#RemainsTileset": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/DemoRoom1.tmx": {
+            "scale": 0.9025,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480.8864265927978,
+                "y": 320.22160664819944
+            }
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/DemoRoom1.tmx#ObjectTileSet": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/DemoRoom1.tmx#RemainsTileset": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/Hub.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 541.3333333333334,
+                "y": 331.99999999999994
+            }
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/Hub.tmx#ObjectTileSet": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/Hub.tmx#TileSheet": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/Intro1.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 379,
+                "y": 836
+            }
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/Intro1.tmx#ObjectTileSet": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/WorldMap.tmx": {
+            "scale": 0.10888671875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 15998.278026905831,
+                "y": 7255.2466367713005
+            }
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/WorldMap.tmx#ObjectTileSet": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/maps/WorldMap.tmx#RemainsTileset": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/tiles/AtriumTileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/tiles/CoreTileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps/Area_Core.json": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.6371951219512195,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 623.0430622009569,
+                "y": 314.66028708133973
+            }
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps/Island_East.json": {
+            "scale": 0.3370967741935484,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1240,
+                "y": 802.4401913875597
+            }
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps/Sandbox.json": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 0.5225,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 800.0000000000001,
+                "y": 400.9569377990432
+            }
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps/TestMap.json": {
+            "scale": 1.7416666666666665,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.00000000000006,
+                "y": 160.47846889952157
+            }
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps/Tower_Mid.json": {
+            "scale": 1.009375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 659.8142414860681,
+                "y": 319.5046439628484
+            }
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps/Tutorial_1.json": {
+            "scale": 0.4814772727272727,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 490.1581307528912,
+                "y": 879.5846117535993
+            }
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps/Tutorial_Playground_2.json": {
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1117.3333333333333,
+                "y": 563
+            }
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileSets/Actors.tsj": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.75,
+            "scaleInEditor": 0.25
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileSets/MinimalistTilesetData.json": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileSets/MinimalistTilesetData.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.5
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileSets/MinimalistTilesetData.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileSets/Yolk_World_1_TilesetData.json": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileSets/Yolk_World_2_TilesetData.json": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileSets/Yolk_World_3_TilesetData.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileSets/minimalist_tilesetdata.json": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileSets/yolk_world_1_tilesetdata.json": {
+            "scaleInDock": 1
+        },
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileSets/yolk_world_3_tilesetdata.json": {
+            "scaleInDock": 1
+        },
+        "tileMapData/Area_Core.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 601.3333333333334,
+                "y": 381.33333333333337
+            }
+        },
+        "tileMapData/HeartwoodTilesetData.tsx": {
+            "scaleInDock": 1
+        },
+        "tileMapData/Island_East.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1636.3636363636363,
+                "y": 1118.1818181818182
+            }
+        },
+        "tileMapData/ObjectTileset.tsx": {
+            "scaleInDock": 1
+        },
+        "tileMapData/Sandbox.json": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 535,
+                "y": 498
+            }
+        },
+        "tileMapData/Sandbox.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 0.75,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 765.3333333333334,
+                "y": 477.33333333333337
+            }
+        },
+        "tileMapData/Sandbox_2.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 800,
+                "y": 292
+            }
+        },
+        "tileMapData/Sandbox_3.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 768,
+                "y": 430.6666666666667
+            }
+        },
+        "tileMapData/Tower_Base.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 704,
+                "y": 350.6666666666667
+            }
+        },
+        "tileMapData/Tower_Mid.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 726,
+                "y": 345
+            }
+        },
+        "tileMapData/TraumaTilesetData.tsx": {
+            "scaleInDock": 1
+        },
+        "tileMapData/Tutorial_1.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 666,
+                "y": 926
+            }
+        },
+        "tileMapData/Tutorial_2.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 415.33333333333326,
+                "y": 253.3333333333333
+            }
+        },
+        "tileMapData/Tutorial_3.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 0.75,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 709.3333333333334,
+                "y": 845.3333333333333
+            }
+        },
+        "tileMapData/Tutorial_4.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 402,
+                "y": 472.66666666666663
+            }
+        },
+        "tileMapData/Tutorial_5.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 462,
+                "y": 719.3333333333333
+            }
+        },
+        "tileMapData/Tutorial_Main.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 588,
+                "y": 393
+            }
+        },
+        "tileMapData/Tutorial_Playground - Copy.tmx": {
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1166.5,
+                "y": 610.5
+            }
+        },
+        "tileMapData/Tutorial_Playground.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 0.75,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 684,
+                "y": 845.3333333333333
+            }
+        },
+        "tileMapData/Tutorial_Playground_2.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 901.5,
+                "y": 124
+            }
+        },
+        "tileMapData/World.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 4188,
+                "y": 6084
+            }
+        },
+        "tileMapData/Yolk_Test.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 309,
+                "y": 191
+            }
+        },
+        "tileMapData/Yolk_World_1.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileMapData/Yolk_World_2.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileMapData/Yolk_World_3.tsj": {
+            "scaleInDock": 1
+        },
+        "tileMapData/_TestMap.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 244,
+                "y": 166.5
+            }
+        },
+        "tileMapData/untitled.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2780,
+                "y": 3376
+            }
+        },
+        "tileMapData/world/Island_East - Copy (2).tmx": {
+            "scale": 0.5209677419354838,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1240.0000000000005,
+                "y": 800.4334365325078
+            }
+        },
+        "tileMapData/world/Island_East.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 452,
+                "y": 670
+            }
+        },
+        "tileMapData/world/Island_West.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1096,
+                "y": 918.6666666666666
+            }
+        },
+        "tileMapData/world/Tower_Base.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 596,
+                "y": 279
+            }
+        },
+        "tileMapData/world/Tower_Mid.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 656,
+                "y": 309
+            }
+        },
+        "tileMapData/world/Tower_Mid_old.tmx": {
+            "scale": 0.9847560975609756,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 623.5046439628484,
+                "y": 314.79876160990716
+            }
+        },
+        "tileMapData/world/Tower_Upper.tmx": {
+            "scale": 0.9847560975609756,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 623.5046439628484,
+                "y": 314.79876160990716
+            }
+        },
+        "tileMapData/world/Undercloud_Center.tmx": {
+            "scale": 0.9847560975609756,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 624.5201238390093,
+                "y": 315.81424148606806
+            }
+        },
+        "tileMapData/world/Undercloud_East.tmx": {
+            "scale": 0.9847560975609756,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 907.8390092879257,
+                "y": 364.5572755417956
+            }
+        },
+        "tileMapData/world/Underground_Center.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 649.3333333333334,
+                "y": 754.6666666666665
+            }
+        },
+        "tileMapData/world/Underground_East.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 805.3333333333334,
+                "y": 384
+            }
+        },
+        "tileMapData/world/Underground_Southeast.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1518.181818181818,
+                "y": 754.5454545454547
+            }
+        },
+        "tileMapData/world/Underground_Southwest.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1512.1212121212122,
+                "y": 593.9393939393939
+            }
+        },
+        "tileMapData/world/Underground_Top.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 526,
+                "y": 240
+            }
+        },
+        "tileMapData/world/Underground_West.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 970.6666666666665,
+                "y": 365.33333333333337
+            }
+        },
+        "tileSets/Yolk_World_1_TilesetData.json": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps",
+    "last.externalTilesetPath": "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileSets",
+    "last.imagePath": "C:/Peltast Software/_projects/javascript_projects/your-guide-to-the-afterlife/lib/images/tiles",
+    "last.worldFilePath": "C:/Peltast Software/_Projects/Typescript Projects/yolk/lib/data/tileMapData",
+    "lastUsedTilesetExportFilter": "JSON tileset files (*.tsj *.json)",
+    "loadedWorlds": [
+    ],
+    "map.height": 350,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 350,
+    "openFiles": [
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps/Tower_Mid.json",
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps/Tutorial_1.json",
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps/Tutorial_Playground_2.json",
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Basement_1.tmx",
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Basement_2.tmx",
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Floor 1.tmx",
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Dining Room.tmx",
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Boat.tmx"
+    ],
+    "project": "Yolk.tiled-project",
+    "property.type": "string",
+    "recentFiles": [
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps/Tower_Mid.json",
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps/Tutorial_1.json",
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileMaps/Tutorial_Playground_2.json",
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Basement_1.tmx",
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Basement_2.tmx",
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Floor 1.tmx",
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Boat.tmx",
+        "C:/Peltast Software/_projects/flash_projects/why-am-i-dead-at-sea/Why Am I Dead At Sea/lib/Maps/Dining Room.tmx",
+        "C:/Peltast Software/_projects/typescript_projects/yolk/lib/tileSets/MinimalistTilesetData.json",
+        "tileMapData/Yolk_Test.tmx",
+        "tileMapData/Area_Core.tmx",
+        "tileMapData/Tutorial_Playground_2.tmx"
+    ],
+    "tileset.lastUsedFilter": "All Files (*)",
+    "tileset.lastUsedFormat": "json",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.type": 1
+}

@@ -1,0 +1,70 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "compatibilityVersion": 1100,
+    "extensionsPath": "extensions",
+    "folders": [
+        "."
+    ],
+    "properties": [
+    ],
+    "propertyTypes": [
+        {
+            "id": 3,
+            "name": "CoreObjectType",
+            "storageType": "string",
+            "type": "enum",
+            "values": [
+                "Basic",
+                "Transition",
+                "Door",
+                "Player",
+                "Player_Checkpoint",
+                "Actor",
+                "Spawner",
+                "Switch"
+            ],
+            "valuesAsFlags": false
+        },
+        {
+            "id": 1,
+            "name": "LayerType",
+            "storageType": "string",
+            "type": "enum",
+            "values": [
+                "tiles",
+                "background",
+                "objects"
+            ],
+            "valuesAsFlags": false
+        },
+        {
+            "id": 2,
+            "name": "ObjectType",
+            "storageType": "string",
+            "type": "enum",
+            "values": [
+                "Flower",
+                "Portal",
+                "Transition",
+                "Door",
+                "ProjectileEnemy",
+                "Yolk_Upgrade",
+                "Collectible_Jidan",
+                "Destructible_Block",
+                "Checkpoint",
+                "Hazard_Zone",
+                "Spawner",
+                "Moving_Destructible_Block",
+                "Tutorial_Enemy",
+                "Switch",
+                "Wall_Block",
+                "Transparent_Block",
+                "Hazard_Wall_Block",
+                "Doppelganger"
+            ],
+            "valuesAsFlags": false
+        }
+    ]
+}
