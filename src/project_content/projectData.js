@@ -12,7 +12,8 @@ export const ProjectData = {
     "waid": {
         title: "Why Am I Dead",
         logo: "waid_logo.png",
-        contentType: "flash",        
+        contentType: "flash",
+        year: 2012,
 
         subjectHTML: () => {
             return (
@@ -69,7 +70,8 @@ export const ProjectData = {
     "waidr": {
         title: "Why Am I Dead: Rebirth",
         logo: "waidr_logo.png",
-        contentType: "flash",        
+        contentType: "flash",
+        year: 2014,
 
         subjectHTML: () => {
             return (
@@ -91,13 +93,10 @@ export const ProjectData = {
         devTextHTML: () => {
             return (<>
                 <p>
-                    Why Am I Dead: Rebirth is an atypical project - free browser games don't usually get a reboot.
+                    "Rebirth" was a side-project I took on while working on the sequel to the original game, "Why Am I Dead at Sea".  I wanted to work on something with a manageable scope so that I could remain focused on finishing the sequel, and decided that it would be a good opportunity to cross-promote the sequel as it was reaching end of development.  "Rebirth" was released alongside the sequel's Steam Greenlight campaign.
                 </p>
                 <p>
-                    While I was working on the sequel Why Am I Dead at Sea, I really wanted to have a smaller, less ambitious project for sake of variety. To ensure that this side project didn't succumb to scope-creep or distract me from the sequel's development, I decided on remaking the original flash game.
-                </p>
-                <p>
-                    Rebirth makes use of additions I had created for the sequel, such as tracking/displaying visited dialogue, a save/load system, and characters'  pathfinding and routine behaviors. Overall, it was fun to put a new spin on the original game's art, writing, and design using what I had learned since its release.
+                    "Rebirth" makes use of additions I had created for the sequel, such as tracking/displaying visited dialogue, a save/load system, and characters AI/pathfinding.  Overall, it was fun to put a new spin on the original game's art, writing, and design, using what I had learned since its release.
                 </p>
             </>
         ); },
@@ -119,17 +118,18 @@ export const ProjectData = {
         
         "images": 5
     },
-
     "waidas": {
         title: "Why Am I Dead at Sea",
         logo: "waidas_logo.png",
         contentType: "youtube",
+        year: 2015,
 
         subjectHTML: () => {
             return (
                 <div>
                     <iframe style={{width: "100%", maxWidth: "640px" }} width="640" height="360" src="//www.youtube.com/embed/dy2j7qpt7v0?autohide=1&showinfo=0&rel=0\" allowFullScreen></iframe>
                     <br/>
+                    <iframe src="https://store.steampowered.com/widget/359400/?t=Why%20Am%20I%20Dead%20At%20Sea%20is%20an%20adventure%20game%20where%20you%20solve%20the%20mystery%20of%20your%20own%20murder." frameborder="0" width="446" height="190"></iframe>
                 </div>
             );
         },
@@ -188,7 +188,8 @@ export const ProjectData = {
     "aboutface": {
         title: "about-face",
         logo: "about-face_logo.png",
-        contentType: "flash",        
+        contentType: "flash",
+        year: 2016,
 
         subjectHTML: () => {
             return (
@@ -206,9 +207,14 @@ export const ProjectData = {
         },
         devTextHTML: () => {
             return (
-                <p>
-                    about-face was the last game I published using Flash/AS3 and served as a fun exercise in level design and minimalist player guidance.
-                </p>
+                <>
+                    <p>
+                        about-face is a short puzzle-platformer where the world switches colors every time you jump, and was the last game I published using Flash/AS3.  It served as a fun exercise in level design and minimalism in player guidance.
+                    </p>
+                    <p>
+                        about-face was released as freeware and became #1 game of the month on Newgrounds.
+                    </p>
+                </>
             );
         },
         
@@ -220,6 +226,7 @@ export const ProjectData = {
         title: "Jidan Havoc",
         logo: "jidan_logo.png",
         contentType: "javascript",
+        year: 2019,
 
         subjectHTML: () => {
             return (
@@ -237,9 +244,17 @@ export const ProjectData = {
         },
         devTextHTML: () => {
             return (
-                <p>
-                    Jidan Havoc was made with CreateJS and is my first full game published with HTML5/Javascript.
-                </p>
+                <>
+                    <p>
+                        Jidan Havoc was an action-platformer written in Javascript with CreateJS over several months.  It is a simple action-platformer that stretches a very small set of mechanics as far as they can go.  Through a gradual difficulty curve and scoring system it incentivizes and rewards technical perfection from the player.  While this was a small and modest project, I have gained a lot from player feedback to it, and will bring that to future projects.
+                    </p>
+                    <p>
+                        I had a lot of fun adding the polish to this game: different player animations based on state (eg separate animations when colliding with walls or missing attacks), particles, parallax backgrounds, and animated menus.
+                    </p>
+                    <p>
+                        As this game was written in Javascript with CreateJS, I implemented all of these things basically from scratch.  Not the most time-effective, but very fun and educational!
+                    </p>
+                </>
             );
         }
     },
@@ -248,11 +263,12 @@ export const ProjectData = {
         title: "Your Guide to the Afterlife",
         logo: "ygtta_logo.png",
         contentType: "youtube",
+        year: 2019,
 
         subjectHTML: () => {
             return (
                 <div>
-                    <iframe style={{width: "100%", maxWidth: "560px" }} width="560" height="315" src="https://www.youtube.com/embed/J5Almslel9M" allowFullScreen></iframe>
+                    <iframe style={{ width: "100%", maxWidth: "560px" }} width="560" height="315" src="https://www.youtube.com/embed/J5Almslel9M" allowFullScreen></iframe>
                     <br/>
                 </div>
             );
@@ -266,8 +282,14 @@ export const ProjectData = {
                     <p>
                         Your Guide to the Afterlife is an adventure game focused on discovery and self-efficacy, where you will explore a disheveled world on the brink of collapse. You will have to set your own checkpoints, create your own shortcuts, and carve your own paths to make any progress. You won't be completely alone, though - all sorts of characters have found their way here, each with their own story to tell, and with their own endings in mind.
                     </p>
+                </>
+            );
+        },
+        devTextHTML: () => {
+            return (
+                <>
                     <p>
-                        This project is still in development and is subject to change.  The gameplay footage shown is not fully representative of how the finished game will look.
+                        This was a project I worked on for several months that began as a small idea: an open-world adventure game where you can pick up and move everything.  I had so much fun implementing different areas and themes that before I knew it, I had five fully implemented regions and hundreds of maps.  The small idea that I wanted to create was finished, but it became a bit buried within other ideas I added.  I am happy with a lot of the things I created here, and am excited to return to the ideas in this project some day, but it needs more prototyping and re-balancing.
                     </p>
                 </>
             );
@@ -275,10 +297,13 @@ export const ProjectData = {
         gifs: 4
     },
 
+
+
     "ggj2018": {
         title: "Signal Boost",
         logo: "ggj2018_logo.png",
         contentType: "javascript",
+        year: 2018,
 
         subjectHTML: () => {
             return (
@@ -315,6 +340,7 @@ export const ProjectData = {
         title: "Weekend Trip to Space",
         logo: "ggj2019_logo.png",
         contentType: "javascript",
+        year: 2019,
 
         subjectHTML: () => {
             return (
@@ -353,6 +379,7 @@ export const ProjectData = {
         title: "OverWorkFlow",
         logo: "ggj2020_logo.png",
         contentType: "javascript",
+        year: 2020,
 
         subjectHTML: () => {
             return (
@@ -397,6 +424,7 @@ export const ProjectData = {
         title: "You Have to Catch Your Breath",
         logo: "pgj2019_logo.png",
         contentType: "javascript",
+        year: 2019,
 
         subjectHTML: () => {
             return (

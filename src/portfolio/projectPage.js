@@ -92,6 +92,14 @@ export const ProjectPage = ({projectKey}) => {
                             { project.reviewsHTML() }
                         </div>
                     }
+                    { project.userReviewsHTML &&
+                        <div className="row" id="projectLinks">
+                            <div className="projectHeader" id="linksHeader" >
+                                User Reviews
+                            </div>
+                            { project.userReviewsHTML() }
+                        </div>
+                    }
                     { project.linksHTML &&
                         <div className="row" id="projectLinks">
                             <div className="projectHeader" id="linksHeader" >
