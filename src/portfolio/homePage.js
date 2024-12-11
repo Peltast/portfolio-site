@@ -37,7 +37,7 @@ export const HomePage = () => {
                     Skills
                 </div>
                 <div className="row homeItem">
-                    <div class="col-sm-4">
+                    <div className="col-sm-4">
                         <ul>
                             <li>Godot</li>
                             <li>CreateJS / PixiJS</li>
@@ -45,7 +45,7 @@ export const HomePage = () => {
                             <li>Actionscript 3 / Flash</li>
                         </ul>
                     </div>
-                    <div class="col-sm-4">
+                    <div className="col-sm-4">
                         <ul>
                             <li>C#</li>
                             <li>Javascript / Typescript</li>
@@ -53,7 +53,7 @@ export const HomePage = () => {
                             <li>T-SQL</li>
                         </ul>
                     </div>
-                    <div class="col-sm-4">
+                    <div className="col-sm-4">
                         <ul>
                             <li>React / React Native</li>
                             <li>HTML5 / CSS / Less</li>

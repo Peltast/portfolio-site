@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ProjectGridData } from "../project_content/projectGridData";
+import { ProjectGridData } from "../projectGridData";
 
 
 const ProjectGrid = () => {
@@ -28,13 +28,12 @@ const ProjectGrid = () => {
                 const projectRow = projectRows[key];
                 
                 return (
-                    <div >
+                    <div key={ key } >
                         { Object.keys(projectRow).map( projectKey => {
 
                             const title = ProjectGridData[projectKey].title;
                             const type = ProjectGridData[projectKey].type;
-                            console.log(projectKey);
-
+                            
                             return (
                                 <ProjectTile key={key + "-" + projectKey} projectKey={projectKey} projectTitle={title} projectType={type} />
                             );
@@ -73,7 +72,7 @@ const ProjectTile = ({ projectKey, projectTitle, projectType }) => {
                 { projectType }
             </div>
 
-            <Link to={"/projectPage/" + projectKey} >
+            <Link to={"/projectPage/"} >
                 <img src={process.env.PUBLIC_URL + image} />
             </Link>
 

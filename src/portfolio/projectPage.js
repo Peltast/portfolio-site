@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 
-import { ProjectData } from "../project_content/projectData";
+import { ProjectData } from "../projectData";
 import ProjectMediaGallery from "./projectMediaGallery";
 
 import headerLogo from "../lib/images/peltast-logo-whiteheader.png";
@@ -8,7 +8,9 @@ import headerLogoHover from "../lib/images/peltast-logo-redheader.png";
 
 
 export const ProjectPage = ({projectKey}) => {
-
+    const [searchParams, setSearchParams] = useSearchParams(); 
+    const pKey = searchParams.get("key");
+    
     const key = projectKey ?? "";
     const project = ProjectData[key];
     
