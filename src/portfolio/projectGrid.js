@@ -33,7 +33,7 @@ const ProjectGrid = () => {
 
                             const title = ProjectGridData[projectKey].title;
                             const type = ProjectGridData[projectKey].type;
-                            
+
                             return (
                                 <ProjectTile key={key + "-" + projectKey} projectKey={projectKey} projectTitle={title} projectType={type} />
                             );
@@ -72,7 +72,7 @@ const ProjectTile = ({ projectKey, projectTitle, projectType }) => {
                 { projectType }
             </div>
 
-            <Link to={"/projectPage/"} >
+            <Link to={"/projectPage?key=" + projectKey} >
                 <img src={process.env.PUBLIC_URL + image} />
             </Link>
 

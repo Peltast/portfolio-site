@@ -18,7 +18,7 @@ export const HomePage = () => {
                 </div>
                 <div id="introduction" className="row homeItem">
 
-                    <div className="col-sm-8 projectDescription">
+                    <div id="aboutMe" className="col-sm-8 projectDescription">
                         Hi, my name is Patrick, and I am a game developer.  I primarily focus on programming, but in my independent projects I have also been responsible for game design, art, and writing.
                         <br/><br/>
                         I started out making Flash games, and have branched out into other engines/platforms like Monogame, Unity and Godot. I have also remained interested in anything that can directly target browsers, such as OpenFL, CreateJS and PixiJS.
@@ -28,7 +28,7 @@ export const HomePage = () => {
                         Outside of games, I'm passioniate in history, language, education, and the combination of any or all of those things.
                     </div>
 
-                    <div className="col-sm-4" style={{ alignContent: "center" }}>
+                    <div id="portrait" className="col-sm-4" style={{ alignContent: "center" }}>
                         <img src={portrait} />
                     </div>
                 </div>

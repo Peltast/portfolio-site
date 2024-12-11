@@ -4,6 +4,9 @@ body {
 .background {
   background-color: #656565;
 }
+iframe {
+  width: 100%;
+}
 .mainColumn {
   display: flex;
   flex-direction: column;
@@ -34,7 +37,7 @@ body {
   position: relative;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 18;
+  font-size: 12pt;
   width: 270px;
   margin: 4px;
   margin-top: 60px;
@@ -215,4 +218,16 @@ body {
 .projectGallery img {
   padding: 2px;
   cursor: zoom-in;
+}
+@media only screen and (max-width: 600px) {
+  .mainColumn {
+    font-size: 10pt;
+    padding: 0px 20px;
+  }
+  .homeItem {
+    padding-bottom: 0px;
+  }
+  .projectGallery img {
+    width: 50%;
+  }
 }

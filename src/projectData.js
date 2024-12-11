@@ -143,7 +143,7 @@ export const ProjectData = {
                 <div>
                     <iframe style={{width: "100%", maxWidth: "640px" }} width="640" height="360" src="//www.youtube.com/embed/dy2j7qpt7v0?autohide=1&showinfo=0&rel=0\" allowFullScreen></iframe>
                     <br/>
-                    <iframe src="https://store.steampowered.com/widget/359400/?t=Why%20Am%20I%20Dead%20At%20Sea%20is%20an%20adventure%20game%20where%20you%20solve%20the%20mystery%20of%20your%20own%20murder." frameborder="0" width="446" height="190"></iframe>
+                    <iframe src="https://store.steampowered.com/widget/359400/?t=Why%20Am%20I%20Dead%20At%20Sea%20is%20an%20adventure%20game%20where%20you%20solve%20the%20mystery%20of%20your%20own%20murder." frameBorder="0" width="446" height="190"></iframe>
                 </div>
             );
         },
@@ -208,17 +208,17 @@ export const ProjectData = {
 
                         <p>"I finished it in only a few sittings and it took that long purely because there were a couple parts so heartbreaking that I had to put it down for a bit, otherwise I'm sure I would've pushed myself through it all in a day."</p>
 
-                        <p>"I was completely enthralled by this game and had to play it through in only two sittings."</p>
+                        {/* <p>"I was completely enthralled by this game and had to play it through in only two sittings."</p> */}
 
-                        <p>"Holy crap. Why didn't I buy this game sooner? I thought I'd be playing this game 4-5 hours max...I was wrong!"</p>
+                        {/* <p>"Holy crap. Why didn't I buy this game sooner? I thought I'd be playing this game 4-5 hours max...I was wrong!"</p> */}
 
                         <p>"Wow, what a ride this was. I expected to fire it up for a moment just to check it out and I ended up glued to the game until I 100% the whole thing."</p>
 
                         <p>"Why Am I Dead At Sea is one of the most intelligently crafted games that I have experienced to date. The grace in which important social issues are tackled is astounding. It is sincerely a must play title."</p>
 
-                        <p>"Do not sleep on this gem. I repeat, do not sleep on it. Why Am I Dead At Sea is an underrated gem that you need to experience."</p>
+                        {/* <p>"Do not sleep on this gem. I repeat, do not sleep on it. Why Am I Dead At Sea is an underrated gem that you need to experience."</p> */}
 
-                        <p>"Why Am I Dead At Sea could have easily been silly and absurd. And it is at times--but it's also well-written, thought-provoking, and often downright moving. I'm only sorry it took me so long to clear it from my backlog."</p>
+                        {/* <p>"Why Am I Dead At Sea could have easily been silly and absurd. And it is at times--but it's also well-written, thought-provoking, and often downright moving. I'm only sorry it took me so long to clear it from my backlog."</p> */}
 
                         <p>"I actually think about this game a lot, even four years later."</p>
 
@@ -483,13 +483,13 @@ export const ProjectData = {
                     <p>
                         Click the blue nodes on the left to change the paths that signals will travel through. Where they land at the bottom determines what your player will do: move to the left, right, or stand still. Work will pile up at different stations, so make sure you get to them fast enough!
                     </p>
-                    <p>
+                    <div>
                         <ul>
                             <li>When you clear through work, new signals will pour in to help you get to the next station</li>
                             <li>If work piles up too high, it will create negative signals, which change the pathways, messing up your plans</li>
                             <li>If a node is switched too much it will overheat and eventually burn out, creating a fire signal that will disable whichever node it reaches</li>
                         </ul>
-                    </p>
+                    </div>
                     <p>
                         Press R to reset the game at any time.  There is no game over state; just try to get as much work done before you're overwhelmed!
                     </p>

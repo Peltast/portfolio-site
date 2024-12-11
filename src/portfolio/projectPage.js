@@ -7,12 +7,10 @@ import headerLogo from "../lib/images/peltast-logo-whiteheader.png";
 import headerLogoHover from "../lib/images/peltast-logo-redheader.png";
 
 
-export const ProjectPage = ({projectKey}) => {
+export const ProjectPage = () => {
     const [searchParams, setSearchParams] = useSearchParams(); 
-    const pKey = searchParams.get("key");
-    
-    const key = projectKey ?? "";
-    const project = ProjectData[key];
+    const projectKey = searchParams.get("key") ?? "";
+    const project = ProjectData[projectKey];
     
     let imageNumber, gifNumber = -1;
     let projectHasMedia = false;

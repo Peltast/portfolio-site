@@ -16,21 +16,9 @@ function App() {
 
                     <Route index element={ <HomePage /> } />
                     
-                    <Route path="projectPage/" element={ <ProjectPage projectKey="waid" /> } />
-                    <Route path="projectPage/" element={ <ProjectPage projectKey="waidr" /> } />
-                    <Route path="projectPage/" element={ <ProjectPage projectKey="waidas" /> } />
-
-                    <Route path="projectPage/" element={ <ProjectPage projectKey="aboutface" /> } />
-                    <Route path="projectPage/" element={ <ProjectPage projectKey="jidan" /> } />
-                    <Route path="projectPage/" element={ <ProjectPage projectKey="ygtta" /> } />
-                    <Route path="projectPage/" element={ <ProjectPage projectKey="yotwm_proto" /> } />
-                    
-                    <Route path="projectPage/" element={ <ProjectPage projectKey="ggj2018" /> } />
-                    <Route path="projectPage/" element={ <ProjectPage projectKey="ggj2019" /> } />
-                    <Route path="projectPage/" element={ <ProjectPage projectKey="ggj2020" /> } />
-                    <Route path="projectPage/" element={ <ProjectPage projectKey="pgj2019" /> } />
-
                     <Route path="projectPage" element={ <ProjectPage /> } />
+
+                    {/* <Route path="projectPage" element={ <ProjectPage /> } /> */}
                     
                 </Route>
 

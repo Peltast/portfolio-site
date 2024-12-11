@@ -34,6 +34,9 @@ body {
     padding: 0 50px;
 }
 
+iframe {
+    width: 100%;
+}
 
 // Main column styling ////////////////////////////////////////
 
@@ -67,7 +70,7 @@ body {
     text-align: center;
 
     font-family: 'Roboto', sans-serif;
-    font-size: 18;
+    font-size: 12pt;
 
     width: 270px;
     margin: 4px;
@@ -229,3 +232,25 @@ body {
 }
 
 
+
+@media only screen and (max-width: 600px) {
+    .mainColumn {
+        font-size: 10pt;
+        padding: 0px 20px;
+    }
+    .homeItem {
+        padding-bottom: 0px;
+    }
+
+    .projectGallery img {
+        width: 50%;
+    }
+
+    // .homeProjectTile {
+    //     font-size: 10pt;
+    //     width: 30%;
+    // }
+    // .homeProjectHeader {
+    //     top: -60px;
+    // }
+}
