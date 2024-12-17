@@ -7,6 +7,9 @@ body {
 iframe {
   width: 100%;
 }
+iframe#steamWidget {
+  width: 446px;
+}
 .mainColumn {
   display: flex;
   flex-direction: column;
@@ -195,8 +198,9 @@ iframe {
 }
 .projectCredit {
   padding: 10px 10px;
-  font-style: italic;
-  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  padding-left: 60px;
 }
 .projectHeader {
   padding: 10px 10px;

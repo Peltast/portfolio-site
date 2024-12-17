@@ -41,7 +41,7 @@ export const ProjectPage = () => {
                             {project.title}
                         </div>
                         { project.credits && <div className="projectCredit">
-                            {project.credits}
+                            {project.credits()}
                         </div>}
                     </div>
 

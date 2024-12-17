@@ -14,12 +14,19 @@ export const ProjectData = {
         logo: "waid_logo.png",
         contentType: "flash",
         year: 2012,
-        credits: "Developer, designer, writer, artist",
+
+        credits: () => {
+            return (
+                <div>
+                    <b>Development, design, writing, art:</b> Patrick McGrath
+                </div>
+            );
+        },
 
         subjectHTML: () => {
             return (
                 <>
-                    <object type="application/x-shockwave-flash" data="../project_content/waid/Shade.swf" height="540" width="400"></object>
+                    <object type="application/x-shockwave-flash" data="../project_content/waid/Shade.swf" width="540" height="400"></object>
                     <br/>
                     <a href="https://www.newgrounds.com/portal/view/606173">Play on Newgrounds!</a>
                 </>
@@ -77,12 +84,19 @@ export const ProjectData = {
         logo: "waidr_logo.png",
         contentType: "flash",
         year: 2014,
-        credits: "Developer, designer, writer, artist",
+
+        credits: () => {
+            return (
+                <div>
+                    <b>Development, design, writing, art:</b> Patrick McGrath
+                </div>
+            );
+        },
 
         subjectHTML: () => {
             return (
                 <>
-                    <object type="application/x-shockwave-flash" data="../project_content/waidr/WhyAmIDeadRebirth.swf" height="540" width="400"></object>
+                    <object type="application/x-shockwave-flash" data="../project_content/waidr/WhyAmIDeadRebirth.swf" width="540" height="400"></object>
                     <br/>
                     <a href="https://www.newgrounds.com/portal/view/646983">Play on Newgrounds!</a>
                 </>
@@ -135,7 +149,15 @@ export const ProjectData = {
         title: "Why Am I Dead at Sea",
         logo: "waidas_logo.png",
         contentType: "youtube",
-        credits: "Developer, designer, writer, artist",
+        credits: () => {
+            return (
+                <div>
+                    <b>Development, design, writing, art:</b> Patrick McGrath
+                    <br/>
+                    <b>Music:</b> Bill Kiley
+                </div>
+            );
+        },
         year: 2015,
 
         subjectHTML: () => {
@@ -143,7 +165,7 @@ export const ProjectData = {
                 <div>
                     <iframe style={{width: "100%", maxWidth: "640px" }} width="640" height="360" src="//www.youtube.com/embed/dy2j7qpt7v0?autohide=1&showinfo=0&rel=0\" allowFullScreen></iframe>
                     <br/>
-                    <iframe src="https://store.steampowered.com/widget/359400/?t=Why%20Am%20I%20Dead%20At%20Sea%20is%20an%20adventure%20game%20where%20you%20solve%20the%20mystery%20of%20your%20own%20murder." frameBorder="0" width="446" height="190"></iframe>
+                    <iframe id="steamWidget" src="https://store.steampowered.com/widget/359400/?t=Why%20Am%20I%20Dead%20At%20Sea%20is%20an%20adventure%20game%20where%20you%20solve%20the%20mystery%20of%20your%20own%20murder." frameBorder="0" width="446" height="190"></iframe>
                 </div>
             );
         },
@@ -214,13 +236,14 @@ export const ProjectData = {
 
                         <p>"Wow, what a ride this was. I expected to fire it up for a moment just to check it out and I ended up glued to the game until I 100% the whole thing."</p>
 
-                        <p>"Why Am I Dead At Sea is one of the most intelligently crafted games that I have experienced to date. The grace in which important social issues are tackled is astounding. It is sincerely a must play title."</p>
+                        <p>"I actually think about this game a lot, even four years later."</p>
+
+                        {/* <p>"Why Am I Dead At Sea is one of the most intelligently crafted games that I have experienced to date. The grace in which important social issues are tackled is astounding. It is sincerely a must play title."</p> */}
 
                         {/* <p>"Do not sleep on this gem. I repeat, do not sleep on it. Why Am I Dead At Sea is an underrated gem that you need to experience."</p> */}
 
                         {/* <p>"Why Am I Dead At Sea could have easily been silly and absurd. And it is at times--but it's also well-written, thought-provoking, and often downright moving. I'm only sorry it took me so long to clear it from my backlog."</p> */}
 
-                        <p>"I actually think about this game a lot, even four years later."</p>
 
 
                     </div>
@@ -235,7 +258,16 @@ export const ProjectData = {
         logo: "about-face_logo.png",
         contentType: "flash",
         year: 2016,
-        credits: "Developer, designer, writer, artist",
+
+        credits: () => {
+            return (
+                <div>
+                    <b>Programming, design, writing, art:</b> Patrick McGrath
+                    <br/>
+                    <b>Music:</b> Bill Kiley
+                </div>
+            );
+        },
 
         subjectHTML: () => {
             return (
@@ -277,7 +309,14 @@ export const ProjectData = {
         logo: "jidan_logo.png",
         contentType: "javascript",
         year: 2019,
-        credits: "Developer, designer, artist",
+
+        credits: () => {
+            return (
+                <div>
+                    <b>Development, design, art:</b> Patrick McGrath
+                </div>
+            );
+        },
 
         subjectHTML: () => {
             return (
@@ -318,7 +357,14 @@ export const ProjectData = {
         logo: "ygtta_logo.png",
         contentType: "youtube",
         year: 2019,
-        credits: "Developer, designer, writer, artist",
+
+        credits: () => {
+            return (
+                <div>
+                    <b>Development, design, writing, art:</b> Patrick McGrath
+                </div>
+            );
+        },
 
         subjectHTML: () => {
             return (
@@ -361,7 +407,14 @@ export const ProjectData = {
         logo: "jidan_logo.png",
         contentType: "javascript",
         year: 2024,
-        credits: "Developer, designer, artist",
+
+        credits: () => {
+            return (
+                <div>
+                    <b>Development, design, art:</b> Patrick McGrath
+                </div>
+            );
+        },
         
         subjectHTML: () => {
             return (
@@ -393,6 +446,14 @@ export const ProjectData = {
         logo: "ggj2018_logo.png",
         contentType: "javascript",
         year: 2018,
+        
+        credits: () => {
+            return (
+                <div>
+                    <b>Development, design, art:</b> Patrick McGrath
+                </div>
+            );
+        },
 
         subjectHTML: () => {
             return (
@@ -430,6 +491,14 @@ export const ProjectData = {
         logo: "ggj2019_logo.png",
         contentType: "javascript",
         year: 2019,
+        
+        credits: () => {
+            return (
+                <div>
+                    <b>Development, design, art:</b> Patrick McGrath
+                </div>
+            );
+        },
 
         subjectHTML: () => {
             return (
@@ -469,6 +538,14 @@ export const ProjectData = {
         logo: "ggj2020_logo.png",
         contentType: "javascript",
         year: 2020,
+        
+        credits: () => {
+            return (
+                <div>
+                    <b>Development, design, art:</b> Patrick McGrath
+                </div>
+            );
+        },
 
         subjectHTML: () => {
             return (
@@ -515,6 +592,14 @@ export const ProjectData = {
         logo: "pgj2019_logo.png",
         contentType: "javascript",
         year: 2019,
+        
+        credits: () => {
+            return (
+                <div>
+                    <b>Development, design, art:</b> Patrick McGrath
+                </div>
+            );
+        },
 
         subjectHTML: () => {
             return (
